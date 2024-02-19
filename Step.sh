@@ -2,7 +2,7 @@
 sudo apt install git
 sudo apt install curl
 sudo apt install vim
-sudo apt install 
+sudo apt install snapd
 
 # AstroNvim
 git clone --depth 1 https://github.com/AstroNvim/AstroNvim ~/.config/nvim
