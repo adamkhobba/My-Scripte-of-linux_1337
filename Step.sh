@@ -1,8 +1,10 @@
-#Program
+#Programs
 sudo apt install git
 sudo apt install curl
 sudo apt install vim
 sudo apt install snapd
+sudo apt install clangd
+sudo apt install clang
 
 # AstroNvim
 git clone --depth 1 https://github.com/AstroNvim/AstroNvim ~/.config/nvim
@@ -20,11 +22,14 @@ git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$
 echo ZSH_THEME="powerlevel10k/powerlevel10k" > ~/.zshrc
 
 # Discord    
-sudo apt install snpad
 snpad install discord
+
+# Spotify
+snapd install spotify
 
 # Obsidian
 # https://obsidian.md/download
+wget https://github.com/obsidianmd/obsidian-releases/releases/download/v1.5.3/obsidian_1.5.3_amd64.snap
 snap install obsidian*.snap --dangerous --classic
 
 # Neovim
@@ -43,4 +48,8 @@ nvim
 wget https://github.com/ryanoasis/nerd-fonts/blob/master/patched-fonts/Hack/Regular/HackNerdFont-Regular.ttf 
 mkdir .local/share/fonts
 mv HackNerdFont-Regular.ttf .local/share/fonts
+
+# cloning my repo
+git clone git@github.com:adamkhobba/obsidian.git
+mv obsidian Download
 
