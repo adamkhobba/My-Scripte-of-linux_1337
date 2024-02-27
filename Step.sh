@@ -14,12 +14,7 @@ nvim
 sudo apt install zsh -y
 chsh -s $(which zsh)
 
-# Oh my zsh
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
-# 10k power level
-git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
-echo ZSH_THEME="powerlevel10k/powerlevel10k" > ~/.zshrc
 
 # Discord    
 snpad install discord -y
@@ -57,3 +52,9 @@ mv obsidian Download
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo apt install ./google-chrome-stable_current_amd64.deb -y
 
+# Oh my zsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+# 10k power level
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
+echo ZSH_THEME="powerlevel10k/powerlevel10k" > ~/.zshrc
