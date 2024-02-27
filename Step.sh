@@ -1,17 +1,17 @@
 #Programs
-sudo apt install git
-sudo apt install curl
-sudo apt install vim
-sudo apt install snapd
-sudo apt install clangd
-sudo apt install clang
+sudo apt install git -y
+sudo apt install curl -y
+sudo apt install vim -y
+sudo apt install snapd -y
+sudo apt install clangd -y
+sudo apt install clang -y
 
 # AstroNvim
 git clone --depth 1 https://github.com/AstroNvim/AstroNvim ~/.config/nvim
 nvim
 
 # Zsh
-sudo apt install zsh
+sudo apt install zsh -y
 chsh -s $(which zsh)
 
 # Oh my zsh
@@ -22,10 +22,10 @@ git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$
 echo ZSH_THEME="powerlevel10k/powerlevel10k" > ~/.zshrc
 
 # Discord    
-snpad install discord
+snpad install discord -y
 
 # Spotify
-snapd install spotify
+snapd install spotify -y
 
 # Obsidian
 # https://obsidian.md/download
@@ -52,4 +52,8 @@ mv HackNerdFont-Regular.ttf .local/share/fonts
 # cloning my repo
 git clone git@github.com:adamkhobba/obsidian.git
 mv obsidian Download
+
+# Chrome
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo apt install ./google-chrome-stable_current_amd64.deb -y
 
