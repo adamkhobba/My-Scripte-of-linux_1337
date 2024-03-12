@@ -17,7 +17,7 @@ chsh -s $(which zsh)
 
 
 # Discord    
-snpad install discord 
+snapd install discord 
 
 # Spotify
 snapd install spotify
