@@ -17,10 +17,10 @@ chsh -s $(which zsh)
 
 
 # Discord    
-snapd install discord 
+snap install discord 
 
 # Spotify
-snapd install spotify
+snap install spotify
 
 # Obsidian
 # https://obsidian.md/download
