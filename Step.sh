@@ -5,7 +5,8 @@ sudo apt install vim -y
 sudo apt install snapd -y
 sudo apt install clangd -y
 sudo apt install clang -y
-
+sudo apt install gcc -y
+sudo apt install make -y
 # AstroNvim
 git clone --depth 1 https://github.com/AstroNvim/AstroNvim ~/.config/nvim
 nvim
